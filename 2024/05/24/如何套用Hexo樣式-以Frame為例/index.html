@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="author" content="風羽">
+
+
+
+
+
+
+
+<title>如何套用Hexo樣式 以Frame為例 | 吟風格</title>
+
+
+
+    <link rel="icon" href="/HexoBlog/favicon.ico">
+
+
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&family=Roboto+Mono&display=swap');
+</style>
+
+
+
+    <!-- stylesheets list from _config.yml -->
+    
+    <link rel="stylesheet" href="/HexoBlog/css/style.css">
+    
+
+
+
+
+    <!-- scripts list from _config.yml -->
+    
+    <script src="/HexoBlog/js/menu.js"></script>
+    
+
+
+
+
+
+
+
+
+
+
+  <meta name="generator" content="Hexo 7.2.0"></head>
+  <body>
+    <div class="mask-border">
+    </div>
+
+    <div class="wrapper">
+
+      <div class="header">
+  <div class="flex-container">
+    <div class="header-inner">
+      <div class="site-brand-container">
+        <a href="/HexoBlog/">
+          
+            Joy&#39;s Blog
+          
+        </a>
+      </div>
+      <div id="menu-btn" class="menu-btn" onclick="toggleMenu()">
+        Menu
+      </div>
+      <nav class="site-nav">
+        <ul class="menu-list">
+          
+            
+              <li class="menu-item">
+                <a href="/HexoBlog/">首頁</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/HexoBlog/categories/gallery/">文章</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/HexoBlog/tag/">標籤</a>
+              </li> 
+                   
+          
+            
+              <li class="menu-item">
+                <a href="/HexoBlog/about/">關於我</a>
+              </li> 
+                   
+          
+          
+        </ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main">
+        <div class="flex-container">
+          <article id="post">
+
+  
+    <div class="post-head">
+    <div class="post-info">
+        <div class="tag-list">
+            
+                
+                    <span class="post-tag">
+                        <a href="/HexoBlog/tags/Hexo/">
+                            Hexo
+                        </a>
+                    </span>    
+                
+                    <span class="post-tag">
+                        <a href="/HexoBlog/tags/Hexo%E4%B8%BB%E9%A1%8C/">
+                            Hexo主題
+                        </a>
+                    </span>    
+                           
+            
+        </div>
+        <div class="post-title">
+            
+            
+                如何套用Hexo樣式 以Frame為例
+            
+            
+        </div>
+        <span class="post-date">
+            5月 24, 2024
+        </span>
+    </div>
+    <div class="post-img">
+        
+            <img src="https://camo.githubusercontent.com/c89320d0f5723af5e8943a8aa1bc84ac57f1c53fdaf445716e204a9a1025d59d/68747470733a2f2f636c696f2d73706163652d313330303732353439342e636f732e61702d6775616e677a686f752e6d7971636c6f75642e636f6d2f6672616d652f66656174757265645f696d672f6865786f5f636f7665722e6a7067" alt="featured_image">
+              
+    </div>
+</div>
+    <div class="post-content">
+    <h3 id="主題網址："><a href="#主題網址：" class="headerlink" title="主題網址："></a>主題網址：</h3><p><a target="_blank" rel="noopener" href="https://github.com/zoeingwingkei/frame">Frame</a></p>
+<h3 id="如何安裝"><a href="#如何安裝" class="headerlink" title="如何安裝"></a>如何安裝</h3><p>先照以下指令進入themes資料夾後安裝主題</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># go to your hexo theme folder</span><br><span class="line">cd themes</span><br><span class="line"></span><br><span class="line"># clone the project</span><br><span class="line">git clone https://github.com/zoeingwingkei/frame.git</span><br></pre></td></tr></table></figure>
+
+<h3 id="主題配置"><a href="#主題配置" class="headerlink" title="主題配置"></a>主題配置</h3><p>在Hexo的 <code>config.yml</code> 檔案裡，將主題換成 Frame</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: frame</span><br></pre></td></tr></table></figure>
+
+<h3 id="設置完成"><a href="#設置完成" class="headerlink" title="設置完成"></a>設置完成</h3><p>以上步驟完成後，可輸入以下指令測試是否套用主題成功：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+
+<h3 id="其它設定"><a href="#其它設定" class="headerlink" title="其它設定"></a>其它設定</h3><p>其餘設定可進入以下網址查看更多說明<br><a target="_blank" rel="noopener" href="https://github.com/zoeingwingkei/frame">Frame</a></p>
+
+</div> 
+
+<script>
+    window.onload = detectors();
+</script>
+    <div class="post-footer">
+    <div class="h-line-primary"></div>
+    <nav class="post-nav">
+        <div class="prev-item">
+           
+        </div>
+        <div class="next-item">
+            
+                <div class="icon arrow-right"></div>
+                <div class="post-link">
+                  <a href="/HexoBlog/2024/05/24/%E5%85%AD%E8%A7%92%E5%AD%B8%E9%99%A2-2023-Java-Script%E7%9B%B4%E6%92%AD%E7%8F%AD%E5%BF%83%E5%BE%97/">Next</a>  
+                </div>  
+            
+        </div>
+    </nav>
+</div>
+
+    
+      <div class="post-comment">
+
+     
+
+     
+    
+    
+
+</div>
+     
+  
+</article>
+        </div>
+      </div>
+      
+      <div class="footer">
+    <div class="flex-container">
+        <div class="footer-text">
+            
+            
+                © 風羽 | 
+            
+            
+                Powered by <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> & <a target="_blank" rel="noopener" href="https://github.com/zoeingwingkei/frame/">Frame</a>
+                
+        </div>
+    </div>
+</div>
+
+    </div>
+
+    
+    
+
+  </body>
+</html>
