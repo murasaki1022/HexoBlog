@@ -1,5 +1,6 @@
 ---
 title: Hexo快速指南
+date: 2024-05-24 00:00:00
 tag: Hexo
 categories:
 - [gallery]
